@@ -1,57 +1,50 @@
-[
-[{"Order ID":1001,"Order Date":"2024-01-01","Store ID":"S001","Product ID":"P101","Product Category":"Electronics","Quantity Sold":2,"Unit Price":25000},
-{"Order ID":1002,"Order Date":"01-01-2024","Store ID":"S001","Product ID":"P102","Product Category":"Clothing","Quantity Sold":3,"Unit Price":1500},
-{"Order ID":1003,"Order Date":"2024/01/02","Store ID":"S001","Product ID":"P103","Product Category":"Grocery","Quantity Sold":5,"Unit Price":200},
-{"Order ID":1004,"Order Date":"2024-32-01","Store ID":"S001","Product ID":"P104","Product Category":"Electronics","Quantity Sold":1,"Unit Price":30000},
-{"Order ID":1005,"Order Date":null,"Store ID":"S001","Product ID":"P105","Product Category":"Furniture","Quantity Sold":2,"Unit Price":12000},
-{"Order ID":1006,"Order Date":"2024-01-05","Store ID":"S001","Product ID":"P106","Product Category":"Cloth","Quantity Sold":-1,"Unit Price":1400},
-{"Order ID":1007,"Order Date":"2024-01-06","Store ID":"S001","Product ID":"P107","Product Category":"Grocery","Quantity Sold":0,"Unit Price":300},
-{"Order ID":1008,"Order Date":"2024-01-07","Store ID":"S001","Product ID":"P108","Product Category":"Electronics","Quantity Sold":2,"Unit Price":-5000},
-{"Order ID":1009,"Order Date":"07-01-2024","Store ID":"S001","Product ID":"P109","Product Category":"Clothing","Quantity Sold":null,"Unit Price":1700},
-{"Order ID":1009,"Order Date":"07-01-2024","Store ID":"S001","Product ID":"P109","Product Category":"Clothing","Quantity Sold":null,"Unit Price":1700}],
+Order ID,Order Date,Store ID,Product ID,Product Category,Quantity Sold,Unit Price
+1001,2024-01-01,S001,P101,Electronics,2,25000
+1002,2024-01-01,S001,P102,Clothing,3,1500
+1003,2024-01-02,S001,P103,Grocery,5,200
+1004,,S001,P104,Electronics,1,30000
+1005,2024-01-03,S001,P105,Furniture,,12000
+1006,2024-01-05,S001,P106,Cloth,-1,1400
+1007,2024-01-06,S001,P107,Grocery,0,300
+1008,2024-01-07,S001,P108,Electronics,2,-5000
+1009,07-01-2024,S001,P109,Clothing,,1700
 
-[{"Order ID":1101,"Order Date":"2024-02-01","Store ID":"S002","Product ID":"P201","Product Category":"Electronics","Quantity Sold":1,"Unit Price":20000},
-{"Order ID":1102,"Order Date":"02-02-2024","Store ID":"S002","Product ID":"P202","Product Category":"Clothing","Quantity Sold":-1,"Unit Price":1800},
-{"Order ID":1103,"Order Date":"2024/02/03","Store ID":"S002","Product ID":"P203","Product Category":"Grocery","Quantity Sold":6,"Unit Price":220},
-{"Order ID":1104,"Order Date":"2024-15-02","Store ID":"S002","Product ID":"P204","Product Category":"Furniture","Quantity Sold":1,"Unit Price":null},
-{"Order ID":1105,"Order Date":null,"Store ID":"S002","Product ID":"P205","Product Category":"Cloth","Quantity Sold":2,"Unit Price":1500},
-{"Order ID":1106,"Order Date":"2024-02-05","Store ID":"S002","Product ID":"P206","Product Category":"Electronics","Quantity Sold":3,"Unit Price":25000},
-{"Order ID":1107,"Order Date":"2024-02-06","Store ID":"S002","Product ID":"P207","Product Category":"Grocery","Quantity Sold":0,"Unit Price":300},
-{"Order ID":1108,"Order Date":"2024-02-07","Store ID":"S002","Product ID":"P208","Product Category":"Electronics","Quantity Sold":2,"Unit Price":-4000},
-{"Order ID":1109,"Order Date":"07-02-2024","Store ID":"S002","Product ID":"P209","Product Category":"Clothing","Quantity Sold":null,"Unit Price":1600},
-{"Order ID":1109,"Order Date":"07-02-2024","Store ID":"S002","Product ID":"P209","Product Category":"Clothing","Quantity Sold":null,"Unit Price":1600}],
+1101,2024-02-01,S002,P201,Electronics,1,20000
+1102,02-02-2024,S002,P202,Clothing,-1,1800
+1103,2024/02/03,S002,P203,Grocery,6,220
+1104,2024-02-04,S002,P204,Furniture,1,
+1105,,S002,P205,Cloth,2,1500
+1106,2024-02-05,S002,P206,Electronics,3,25000
+1107,2024-02-06,S002,P207,Grocery,0,300
+1108,2024-02-07,S002,P208,Electronics,2,-4000
+1109,07-02-2024,S002,P209,Clothing,,1600
 
-[{"Order ID":1201,"Order Date":"2024-03-01","Store ID":"S003","Product ID":"P301","Product Category":"Electronics","Quantity Sold":2,"Unit Price":22000},
-{"Order ID":1202,"Order Date":"03-03-2024","Store ID":"S003","Product ID":"P302","Product Category":"Cloth","Quantity Sold":4,"Unit Price":1600},
-{"Order ID":1203,"Order Date":"2024/03/02","Store ID":"S003","Product ID":"P303","Product Category":"Grocery","Quantity Sold":0,"Unit Price":300},
-{"Order ID":1204,"Order Date":"2024-13-03","Store ID":"S003","Product ID":"P304","Product Category":"Furniture","Quantity Sold":1,"Unit Price":14000},
-{"Order ID":1205,"Order Date":null,"Store ID":"S003","Product ID":"P305","Product Category":"Electronics","Quantity Sold":2,"Unit Price":null},
-{"Order ID":1206,"Order Date":"2024-03-05","Store ID":"S003","Product ID":"P306","Product Category":"Clothing","Quantity Sold":-2,"Unit Price":1500},
-{"Order ID":1207,"Order Date":"2024-03-06","Store ID":"S003","Product ID":"P307","Product Category":"Grocery","Quantity Sold":3,"Unit Price":250},
-{"Order ID":1208,"Order Date":"2024-03-07","Store ID":"S003","Product ID":"P308","Product Category":"Electronics","Quantity Sold":1,"Unit Price":-6000},
-{"Order ID":1209,"Order Date":"07-03-2024","Store ID":"S003","Product ID":"P309","Product Category":"Clothing","Quantity Sold":null,"Unit Price":1700},
-{"Order ID":1209,"Order Date":"07-03-2024","Store ID":"S003","Product ID":"P309","Product Category":"Clothing","Quantity Sold":null,"Unit Price":1700}],
+1201,2024-03-01,S003,P301,Electronics,2,22000
+1202,03-03-2024,S003,P302,Cloth,4,1600
+1203,2024/03/02,S003,P303,Grocery,0,300
+1204,2024-03-04,S003,P304,Furniture,1,14000
+1205,,S003,P305,Electronics,2,
+1206,2024-03-05,S003,P306,Clothing,-2,1500
+1207,2024-03-06,S003,P307,Grocery,3,250
+1208,2024-03-07,S003,P308,Electronics,1,-6000
+1209,07-03-2024,S003,P309,Clothing,,1700
 
-[{"Order ID":1301,"Order Date":"2024-04-01","Store ID":"S004","Product ID":"P401","Product Category":"Electronics","Quantity Sold":3,"Unit Price":27000},
-{"Order ID":1302,"Order Date":"04-01-2024","Store ID":"S004","Product ID":"P402","Product Category":"Clothing","Quantity Sold":2,"Unit Price":1400},
-{"Order ID":1303,"Order Date":"2024-13-04","Store ID":"S004","Product ID":"P403","Product Category":"Grocery","Quantity Sold":-2,"Unit Price":250},
-{"Order ID":1304,"Order Date":"2024/04/02","Store ID":"S004","Product ID":"P404","Product Category":"Furniture","Quantity Sold":1,"Unit Price":16000},
-{"Order ID":1305,"Order Date":null,"Store ID":"S004","Product ID":"P405","Product Category":"Cloth","Quantity Sold":2,"Unit Price":1500},
-{"Order ID":1306,"Order Date":"2024-04-05","Store ID":"S004","Product ID":"P406","Product Category":"Electronics","Quantity Sold":3,"Unit Price":26000},
-{"Order ID":1307,"Order Date":"2024-04-06","Store ID":"S004","Product ID":"P407","Product Category":"Grocery","Quantity Sold":0,"Unit Price":300},
-{"Order ID":1308,"Order Date":"2024-04-07","Store ID":"S004","Product ID":"P408","Product Category":"Electronics","Quantity Sold":2,"Unit Price":-4500},
-{"Order ID":1309,"Order Date":"07-04-2024","Store ID":"S004","Product ID":"P409","Product Category":"Clothing","Quantity Sold":null,"Unit Price":1800},
-{"Order ID":1309,"Order Date":"07-04-2024","Store ID":"S004","Product ID":"P409","Product Category":"Clothing","Quantity Sold":null,"Unit Price":1800}],
+1301,2024-04-01,S004,P401,Electronics,3,27000
+1302,04-01-2024,S004,P402,Clothing,2,1400
+1303,2024-04-03,S004,P403,Grocery,-2,250
+1304,2024/04/02,S004,P404,Furniture,1,16000
+1305,,S004,P405,Cloth,2,1500
+1306,2024-04-05,S004,P406,Electronics,3,26000
+1307,2024-04-06,S004,P407,Grocery,0,300
+1308,2024-04-07,S004,P408,Electronics,2,-4500
+1309,07-04-2024,S004,P409,Clothing,,1800
 
-[{"Order ID":1401,"Order Date":"2024-05-01","Store ID":"S005","Product ID":"P501","Product Category":"Furniture","Quantity Sold":1,"Unit Price":15000},
-{"Order ID":1402,"Order Date":"2024/05/02","Store ID":"S005","Product ID":"P502","Product Category":"Electronics","Quantity Sold":2,"Unit Price":-5000},
-{"Order ID":1403,"Order Date":"05-03-2024","Store ID":"S005","Product ID":"P503","Product Category":"Grocery","Quantity Sold":5,"Unit Price":200},
-{"Order ID":1404,"Order Date":"2024-20-05","Store ID":"S005","Product ID":"P504","Product Category":"Clothing","Quantity Sold":-1,"Unit Price":1600},
-{"Order ID":1405,"Order Date":null,"Store ID":"S005","Product ID":"P505","Product Category":"Electronics","Quantity Sold":2,"Unit Price":null},
-{"Order ID":1406,"Order Date":"2024-05-06","Store ID":"S005","Product ID":"P506","Product Category":"Cloth","Quantity Sold":3,"Unit Price":1400},
-{"Order ID":1407,"Order Date":"2024-05-07","Store ID":"S005","Product ID":"P507","Product Category":"Grocery","Quantity Sold":0,"Unit Price":300},
-{"Order ID":1408,"Order Date":"2024-05-08","Store ID":"S005","Product ID":"P508","Product Category":"Electronics","Quantity Sold":1,"Unit Price":-6000},
-{"Order ID":1409,"Order Date":"08-05-2024","Store ID":"S005","Product ID":"P509","Product Category":"Clothing","Quantity Sold":null,"Unit Price":1500},
-{"Order ID":1409,"Order Date":"08-05-2024","Store ID":"S005","Product ID":"P509","Product Category":"Clothing","Quantity Sold":null,"Unit Price":1500}]
-
-]
+1401,2024-05-01,S005,P501,Furniture,1,15000
+1402,2024/05/02,S005,P502,Electronics,2,-5000
+1403,05-03-2024,S005,P503,Grocery,5,200
+1404,2024-05-04,S005,P504,Clothing,-1,1600
+1405,,S005,P505,Electronics,2,
+1406,2024-05-06,S005,P506,Cloth,3,1400
+1407,2024-05-07,S005,P507,Grocery,0,300
+1408,2024-05-08,S005,P508,Electronics,1,-6000
+1409,08-05-2024,S005,P509,Clothing,,1500
